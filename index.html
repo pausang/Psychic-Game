@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Psychic Game</title>
+
+    <!--Bootstrap minified css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    
+    <!---Custom Css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="page-header">
+            <h1>The Psychic Game</h1>
+        </div>
+    </header>
+
+    <div class="container">
+    
+        <h2>Guesses What letter I'm thinking of</h2>
+         <p>Press a,e,i or u to start playing</p>
+        <div class="row">
+            <div class="col-md-4">
+               <img src="images/psychic1.jpg" class="thumbnail" alt="...">
+            </div>
+            <div class="col-md-4">
+                <ul id="space" class="list-group">
+                    <li class="list-group-item" id="wins">Wins:</li>
+                    <li class="list-group-item" id="lose">Losses:</li>
+                    <li class="list-group-item" id="guessesleft">Guesses left:</li>
+                    <li class="list-group-item" id="letter">Your Guesses so far</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <img src="images/download.jpeg" alt="..." class="thumbnail">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy;Copyright 2018 Pau Sang
+    </div>
+
+    <script type="text/javascript" src="javascript/games.js"></script>
+</body>
+</html>
